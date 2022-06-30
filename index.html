@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     
 </head>
 
@@ -19,36 +19,36 @@
 
     <!--шапка сторінки-->
     <header>
-        <div class="container container-header">
+        <div class="container container--header">
             <div class="main-menu">
                 <!--навігація по сайту/ головне меню-->
                 <nav class="nav-menu">
 
                     <!--логотип-посилання-->
-                    <a class="link logo-text" href="./index.html" id="top">Web<span class="top-logo-text">Studio</span></a>
+                    <a class="link logo-text" href="./index.html" id="top">Web<span class="logo-text--header">Studio</span></a>
 
                     <ul class="list main-nav">
-                        <li class="item"><a class="link nav-link underline" href="#studio">Студия</a></li>   <!--посилання на якір з інф. про студію-->
-                        <li class="item"><a class="link nav-link" href="./portfolio.html">Портфолио</a></li>               <!--посилання на сторінку з портфоліо-->
-                        <li class="item"><a class="link nav-link" href="#contacts">Контакты</a></li>                       <!--посилання на якір контантів/футер сторінки -->
+                        <li class="main-nav__item"><a class="link main-menu__link underline" href="#studio">Студия</a></li>   <!--посилання на якір з інф. про студію-->
+                        <li class="main-nav__item"><a class="link main-menu__link" href="./portfolio.html">Портфолио</a></li>               <!--посилання на сторінку з портфоліо-->
+                        <li class="main-nav__item"><a class="link main-menu__link" href="#contacts">Контакты</a></li>                       <!--посилання на якір контантів/футер сторінки -->
                     </ul>
                 </nav>
             </div>
 
             <ul class="list contacts-nav">
-                <li class="item">
+                <li class="contacts-nav__item">
                     
-                    <a class="link contact-link" href="mailto:info@devstudio.com">
-                        <svg class="contact-icon" width="16" height="12">
+                    <a class="link main-menu__link main-menu__link--contact" href="mailto:info@devstudio.com">
+                        <svg class="contacts-nav__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                             <span lang="en">info@devstudio.com</span>
                     </a>
                 </li>
 
-                <li class="item">
-                    <a class="link contact-link" href="tel:+380961111111">
-                        <svg class="contact-icon" width="16" height="12">
+                <li class="contacts-nav__item">
+                    <a class="link main-menu__link main-menu__link--contact" href="tel:+380961111111">
+                        <svg class="contacts-nav__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
                         <span>+38 096 111 11 11</span>
@@ -70,7 +70,7 @@
                     <button class="hero-btn" type="button" data-modal-open> Заказать услугу</button>
 
                     <div class="backdrop is-hidden" data-modal> 
-                       
+                        
                         <div class="modal"> 
                             
                             <button class="close-modal-btn" data-modal-close>
@@ -506,24 +506,24 @@
 
     <!--контактна інформація-->
     <footer class="footer-section">
-        <div class="container container-footer">
+        <div class="container container--footer">
             
-            <div>    <!--обгортка для вирівнювання різних блоків футера-->
+            <div>    <!--обгортка для вирівнювання елементів блоку контактів футера-->
                 <!--логотип-посилання-->
-                <a class="link logo-text" href="#top">Web<span class="footer-logo-text">Studio</span></a>
+                <a class="link logo-text" href="#top">Web<span class="logo-text--footer">Studio</span></a>
         
                 <address id="contacts">
                     <ul class="list">
-                        <li class="contact-item">
-                            <a class="link post-address"
+                        <li class="contacts__item">
+                            <a class="link contacts__post-address"
                                 href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!4m13!1m7!3m6!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!2z0LHRg9C7LiDQm9C10YHQuCDQo9C60YDQsNC40L3QutC4LCAyNiwg0JrQuNC10LIsIDAyMDAw!3b1!8m2!3d50.4265807!4d30.5383858!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858">
                                 г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
-                        <li class="contact-item">
-                            <a class="link footer-contacts-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <li class="contacts__item">
+                            <a class="link contacts__title" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
-                        <li class="contact-item">
-                            <a class="link footer-contacts-text" href="tel:+380991111111">+38 099 111 11 11</a>
+                        <li class="contacts__item">
+                            <a class="link contacts__title" href="tel:+380991111111">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>
@@ -535,32 +535,32 @@
 
                 <ul class="list social-icon-list">
                     <li class="social-icon-area">
-                        <a class="footer-social-link" href="#">
-                            <svg class="footer-social-icon" width="20" height="20">
+                        <a class="social-link social-link--footer" href="#">
+                            <svg class="social-icon social-icon--footer" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram-icon"></use>
                             </svg>
                         </a>
                     </li>
                 
                     <li class="social-icon-area">
-                        <a class="footer-social-link" href="">
-                            <svg class="footer-social-icon" width="20" height="20">
+                        <a class="social-link social-link--footer" href="">
+                            <svg class="social-icon social-icon--footer" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter-icon"></use>
                             </svg>
                         </a>
                     </li>
                 
                     <li class="social-icon-area">
-                        <a class="footer-social-link" href="">
-                            <svg class="footer-social-icon" width="20" height="20">
+                        <a class="social-link social-link--footer" href="">
+                            <svg class="social-icon social-icon--footer" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook-icon"></use>
                             </svg>
                         </a>
                     </li>
                 
                     <li class="social-icon-area">
-                        <a class="footer-social-link" href="">
-                            <svg class="footer-social-icon" width="20" height="20">
+                        <a class="social-link social-link--footer" href="">
+                            <svg class="social-icon social-icon--footer" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin-icon"></use>
                             </svg>
                         </a>
@@ -570,16 +570,17 @@
             </div>
 
             <form class="subscribe-form">
-                <label class="footer-subscribe">Подпишитесь на рассылку</label>
+                <label class="subscribe-form__label">Подпишитесь на рассылку</label>
 
                 <input  type="email" 
                         name="subscribe-email" 
-                        class="footer-input" 
-                        placeholder="E-mail">
+                        class="subscribe-form__input" 
+                        placeholder="E-mail"
+                        required>
 
-                <button type="submit" class="footer-btn">
+                <button type="submit" class="subscribe-form__btn">
                     Подписаться
-                    <svg class="footer-subscribe-icon" width="24" height="24">
+                    <svg class="subscribe-form__icon" width="24" height="24">
                         <use href="./images/icons.svg#subscribe-icon"></use>
                     </svg>
                 </button>
