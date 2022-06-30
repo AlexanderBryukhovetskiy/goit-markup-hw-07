@@ -19,33 +19,31 @@
     <!--шапка сторінки-->
 <header>
         <div class="container container--header">
-            <div class="main-menu">
-                <nav class="nav-menu">
+            <nav class="site-menu">
 
-                    <a class="link logo-text" href="./index.html" id="top">Web<span class="logo-text--header">Studio</span></a>
+                <a class="link logo-text" href="./index.html" id="top">Web<span class="logo-text--header">Studio</span></a>
 
-                    <ul class="list main-nav">
-                        <li class="main-nav__item"><a class="link main-menu__link" href="./index.html">Студия</a></li>
-                        <li class="main-nav__item"><a class="link main-menu__link main-menu__link--current" href="#portfolio">Портфолио</a></li>
-                        <li class="main-nav__item"><a class="link main-menu__link" href="#contacts">Контакты</a></li>
-                    </ul>
-                </nav>
-            </div>
+                <ul class="list main-nav-list">
+                    <li class="main-nav-list__item"><a class="link header__link" href="./index.html">Студия</a></li>
+                    <li class="main-nav-list__item"><a class="link header__link header__link--current" href="#portfolio">Портфолио</a></li>
+                    <li class="main-nav-list__item"><a class="link header__link" href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
 
-            <ul class="list contacts-nav">
-                <li class="contacts-nav__item">
+            <ul class="list header-contacts-list">
+                <li class="header-contacts-list__item">
             
-                    <a class="link main-menu__link main-menu__link--contact" href="mailto:info@devstudio.com">
-                        <svg class="contacts-nav__icon" width="16" height="12">
+                    <a class="link header__link header__link--contact" href="mailto:info@devstudio.com">
+                        <svg class="header-contacts-list__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                             <span lang="en">info@devstudio.com</span>
                     </a>
                 </li>
             
-                <li class="contacts-nav__item">
-                    <a class="link main-menu__link main-menu__link--contact" href="tel:+380961111111">
-                        <svg class="contacts-nav__icon" width="16" height="12">
+                <li class="header-contacts-list__item">
+                    <a class="link header__link header__link--contact" href="tel:+380961111111">
+                        <svg class="header-contacts-list__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
                             <span>+38 096 111 11 11</span>
@@ -64,135 +62,135 @@
                 <h1 class="visually-hidden">Портфолио</h1>
                                 
                 <ul class="list filter-button-list">
-                    <li class="button-list-item"><button class="filter-button active" type="button">Все</button></li>
-                    <li class="button-list-item"><button class="filter-button" type="button">Веб-сайты</button></li>
-                    <li class="button-list-item"><button class="filter-button" type="button">Приложения</button></li>
-                    <li class="button-list-item"><button class="filter-button" type="button">Дизайн</button></li>
-                    <li class="button-list-item"><button class="filter-button" type="button">Маркетинг</button></li>
+                    <li class="filter-button-list__item"><button class="filter-button-list__button filter-button-list__button--active" type="button">Все</button></li>
+                    <li class="filter-button-list__item"><button class="filter-button-list__button" type="button">Веб-сайты</button></li>
+                    <li class="filter-button-list__item"><button class="filter-button-list__button" type="button">Приложения</button></li>
+                    <li class="filter-button-list__item"><button class="filter-button-list__button" type="button">Дизайн</button></li>
+                    <li class="filter-button-list__item"><button class="filter-button-list__button" type="button">Маркетинг</button></li>
                 </ul>
                 
                 <ul class="list portfolio-list">
-                    <li class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio1.jpg" alt="интернет-магазин на экране ноутбука" width="370">
-                                <p class="thunmb-descr">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
+                                <p class="portfolio-list__item-thumb-descr">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
                                 
                             </div> 
                             
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title">Технокряк</h2>
-                                <p class="portfolio-description">Веб-сайт</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title">Технокряк</h2>
+                                <p class="portfolio-list__item-description">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li  class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li  class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio2.jpg" alt="постер баскетбольного матча" width="370">
-                                <p class="thunmb-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, expedita. In architecto sint atque, minus magnam autem fugit quae eius, nesciunt laboriosam odio sed aspernatur!</p>
+                                <p class="portfolio-list__item-thumb-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, expedita. In architecto sint atque, minus magnam autem fugit quae eius, nesciunt laboriosam odio sed aspernatur!</p>
                             </div>
 
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                                <p class="portfolio-description">Дизайн</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                                <p class="portfolio-list__item-description">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li  class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li  class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio3.jpg" alt="название ресторана на фоне изображения рыбы" width="370">
-                                <p class="thunmb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis velit eveniet vel recusandae obcaecati minus dolores reiciendis. Sed voluptatum sequi nesciunt reiciendis.</p>
+                                <p class="portfolio-list__item-thumb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis velit eveniet vel recusandae obcaecati minus dolores reiciendis. Sed voluptatum sequi nesciunt reiciendis.</p>
                             </div>
 
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h2>
-                                <p class="portfolio-description">Приложение</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title">Ресторан <span lang="en">Seafood</span></h2>
+                                <p class="portfolio-list__item-description">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li  class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li  class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio4.jpg" alt="наушники" width="370">
-                                <p class="thunmb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
+                                <p class="portfolio-list__item-thumb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
                                     velit eveniet vel recusandae obcaecati minus dolores reiciendis. Sed voluptatum sequi nesciunt reiciendis.</p>
                             </div>
 
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title">Проект <span lang="en">Prime</span></h2>
-                                <p class="portfolio-description">Маркетинг</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title">Проект <span lang="en">Prime</span></h2>
+                                <p class="portfolio-list__item-description">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li  class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li  class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio5.jpg" alt="2 коробочки разного размера" width="370">
-                                <p class="thunmb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
+                                <p class="portfolio-list__item-thumb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
                                 velit eveniet vel recusandae obcaecati minus dolores reiciendis. Sed voluptatum sequi nesciunt reiciendis.</p>
                             </div>
 
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title">Проект <span lang="en">Boxes</span></h2>
-                                <p class="portfolio-description">Приложение</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title">Проект <span lang="en">Boxes</span></h2>
+                                <p class="portfolio-list__item-description">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li  class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li  class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio6.jpg" alt="моноблок с демонстрацией сайта" width="370">
-                                <p class="thunmb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
+                                <p class="portfolio-list__item-thumb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
                                     velit eveniet vel recusandae obcaecati minus dolores reiciendis. Sed voluptatum sequi nesciunt reiciendis.</p>
                             </div>
 
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title" lang="en">Inspiration has no Borders</h2>
-                                <p class="portfolio-description">Веб-сайт</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title" lang="en">Inspiration has no Borders</h2>
+                                <p class="portfolio-list__item-description">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li  class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li  class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio7.jpg" alt="разворот открытой книги с иллюстрациями" width="370">
-                                <p class="thunmb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
+                                <p class="portfolio-list__item-thumb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
                                     velit eveniet vel recusandae obcaecati minus dolores reiciendis. Sed voluptatum sequi nesciunt reiciendis.</p>
                             </div>
 
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title">Издание <span lang="en">Limited Edition</span></h2>
-                                <p class="portfolio-description">Дизайн</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title">Издание <span lang="en">Limited Edition</span></h2>
+                                <p class="portfolio-list__item-description">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li  class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li  class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio8.jpg" alt="ярлык с надписью LAB EL TAG" width="370">
-                                <p class="thunmb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
+                                <p class="portfolio-list__item-thumb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
                                     velit eveniet vel recusandae obcaecati minus dolores reiciendis. Sed voluptatum sequi nesciunt reiciendis.</p>
                             </div>
 
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
-                                <p class="portfolio-description">Маркетинг</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title">Проект <span lang="en">LAB</span></h2>
+                                <p class="portfolio-list__item-description">Маркетинг</p>
                             </div>    
                         </a>
                     </li>
-                    <li  class="portfolio-item">
-                        <a href="" class="link portfolio-item-link">
-                            <div class="portfolio-img-thumb">
+                    <li  class="portfolio-list__item">
+                        <a href="" class="link portfolio-list__item-link">
+                            <div class="portfolio-list__item-img-thumb">
                                 <img src="./images/portfolio9.jpg" alt="работа руками на нетбуке" width="370">
-                                <p class="thunmb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
+                                <p class="portfolio-list__item-thumb-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aspernatur corrupti debitis
                                     velit eveniet vel recusandae obcaecati minus dolores reiciendis. Sed voluptatum sequi nesciunt reiciendis.</p>
                             </div>
 
-                            <div class="portfolio-border">
-                                <h2 class="portfolio-title" lang="en">Growing Business</h2>
-                                <p class="portfolio-description">Веб-сайт</p>
+                            <div class="portfolio-list__item-title-border">
+                                <h2 class="portfolio-list__item-title" lang="en">Growing Business</h2>
+                                <p class="portfolio-list__item-description">Веб-сайт</p>
                             </div>
                         </a>
                     </li>

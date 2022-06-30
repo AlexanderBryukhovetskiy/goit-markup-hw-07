@@ -8,15 +8,15 @@
     display: flex;
 }
 
-.info-item {
+.info-list__item {
     position: relative;
 
-    .info-list &+& {
+    &+& {
         margin-left: 30px;
     }
 }
 
-.info-title {
+.info-list__item-title {
     position: absolute;
     bottom: 0;
 

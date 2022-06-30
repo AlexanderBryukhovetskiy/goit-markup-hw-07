@@ -1,18 +1,18 @@
 //оформлення секції our-clients
 
-.container-clients {
+.container--clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.client-icon-list {
+.clients-list {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.client-item {
+.clients-list__item {
     width: 170px;
     height: 92px;
 
@@ -23,7 +23,7 @@
     }
 }
 
-.client-link {
+.clients-list__item-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,14 +43,14 @@
     }
 }
 
-.client-icon {
+.clients-list__item-icon {
     fill: $icon-color;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-    .client-link:hover &,
-    .client-link:focus & {
+    .clients-list__item-link:hover &,
+    .clients-list__item-link:focus & {
         fill: $accent-color;
         outline: transparent;
     }

@@ -13,7 +13,7 @@ header {
     align-items: center;
 }
 
-.main-menu__link {
+.header__link {
     position: relative;
 
     display: block;
@@ -37,7 +37,7 @@ header {
     }
 }
 
-.main-menu__link--contact {
+.header__link--contact {
     color: $secondary-font-color;
 
     &:hover {
@@ -51,7 +51,7 @@ header {
 }
 
 //оформлення посилання "Портфолио" у хеддері сторінки Portfolio 
-.main-menu__link--current {
+.header__link--current {
     color: $accent-color;
     
     &:focus {
@@ -63,7 +63,7 @@ header {
 
 //оформлення синього підкреслення активної сторінки у хедері
 .underline::after,
-.main-menu__link--current::after {
+.header__link--current::after {
 
     content: "";
 
@@ -78,35 +78,35 @@ header {
 }
 
 //вирівнювання елементів у header
-.nav-menu {
+.site-menu {
     display: flex;
     align-items: center;
 }
 
-.main-nav {
+.main-nav-list {
     display: flex;
     margin-left: 94px;
 }
 
 //встановлення відстаней між елементами навігації 
-.main-nav__item + .main-nav__item {
+.main-nav-list__item + .main-nav-list__item {
     margin-left: 50px;
 }
 
 //АЛЬТЕРНАТИВНИЙ ВАРІАНТ:
-//.main-nav .item:not(last-child) {
+//.main-nav-list .item:not(last-child) {
 //    margin-right: 50px;}
 
-.contacts-nav {
+.header-contacts-list {
     display: flex;
     margin-left: auto;
 }
 
-.contacts-nav__item +.contacts-nav__item {
+.header-contacts-list__item +.header-contacts-list__item {
     margin-left: 50px;
 }
 
-.contacts-nav__icon {
+.header-contacts-list__icon {
     margin-right: 10px;
 
     fill: currentColor;
